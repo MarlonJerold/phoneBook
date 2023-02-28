@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Nome Contato"
+        />
+
+    <TextView
+        android:id="@+id/textViewTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text=" (85)99999-9999"/>
+
+</LinearLayout>
